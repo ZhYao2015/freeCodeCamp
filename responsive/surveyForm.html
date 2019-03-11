@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="surveyForm.css"/>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <h1 id="title">
+        Umfrage    
+    </h1>
+    <p id="description">
+        A questionaire
+    </p>
+    <div id="form-outer">
+            <form id="survey-form">
+                    <div class="row-tab">
+                        <div class="left-labels">
+                            <label id="name-label" for="name">name</label>
+                        </div>
+                        <div class="right-tabs">
+                            <input autofocus type="name" id="name" placeholder="Your Fullname" required/>
+                        </div>
+                    </div>
+            
+                    <div class="row-tab">
+                        <div class="left-labels">
+                                <label id="email-label" for="email">email</label>
+                        </div>
+                        <div class="right-tabs"> 
+                            <input type="email" id="email" placeholder="XXX@XXX.XXX" required/>
+                        </div>
+                    </div>
+                   
+                    <div class="row-tab">
+                        <div class="left-labels">
+                                <label id="number-label" for="number">number</label>
+                        </div>
+                        <div class="right-tabs">
+                                <input type="number" id="number" min="1" max="100" placeholder="A number"/>
+                        </div>
+                    </div>
+                   
+                    <div class="row-tab">
+                        <div class="left-labels">
+                                <label for="dropdown">Select</label>
+                        </div>
+                        <div class="right-tabs">
+                                <select id="dropdown">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row-tab">
+                        <div class="left-labels">
+                            <label>A set of radio buttons</label>    
+                        </div>    
+                        <div class="right-tabs">
+                                <ul style="list-style: none">
+                                        <li class="radiobutton"><label><input type="radio" value="1" name="rdbt"/>a</label></li>
+                                        <li class="radiobutton"><label><input type="radio" value="2" name="rdbt"/>b</label></li>
+                                        <li class="radiobutton"><label><input type="radio" value="3" name="rdbt"/>c</label></li>
+                                    </ul>
+                        </div>
+                    </div>   
+                    <div class="row-tab">
+                        <div class="left-labels">
+                            <label>A set of Checkboxes</label>
+                        </div>
+                        <div class="right-tabs">
+                            <ul style="list-style: none">
+                                    <li><label class="checkbox"><input type="checkbox" value="1" name="rdbt"/>barcelona</label></li>
+                                    <li><label class="checkbox"><input type="checkbox" value="2" name="rdbt"/>madrid</label></li>
+                                    <li><label class="checkbox"><input type="checkbox" value="3" name="rdbt"/>manchester</label></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row-tab">
+                        <div class="left-labels">
+                            <label for="comments">Additional comments:</label>
+                         </div>
+                        <div class="right-tabs">
+                            <textarea id="comments" placeholder="Add your comment here:">
+            
+                            </textarea>
+                        </div>
+                    </div>
+                    <button id="submit" type="submit">Submit!</button>
+                </form>
+        </div>
+</body>

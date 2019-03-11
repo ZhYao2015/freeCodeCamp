@@ -1,0 +1,16 @@
+{
+  "name": "responsive",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Project Responsive Web Design",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "author": "zhy",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}

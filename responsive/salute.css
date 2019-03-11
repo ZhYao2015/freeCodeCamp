@@ -1,0 +1,25 @@
+#title{
+    text-align: center;
+    background: skyblue;
+    opacity: .5;
+    padding-top:10px;
+}
+#img-div{
+    text-align: center;
+}
+#image{
+    display: block;
+    max-width:100%;
+}
+
+body{
+    background:lightgray;
+
+}
+
+#tribute-info{
+    width: 100%;
+    padding-left:15%;
+    padding-top:2%;
+    padding-bottom: 2%;
+}
